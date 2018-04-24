@@ -1,4 +1,4 @@
-piVersion: devops.alauda.io/v1alpha1
+apiVersion: devops.alauda.io/v1alpha1
 kind: PipelineTaskTemplate
 metadata:
   name: alaudaDeployService
@@ -9,7 +9,7 @@ metadata:
     alauda.io/description.en: DeployService
     alauda.io/readme.zh-CN: 更新服务
     alauda.io/readme.en: DeployService
-    alauda.io/version: v0.1
+    alauda.io/version: v0.2
     alauda.io/style.icon: 
   labels:
     catgory: CD
