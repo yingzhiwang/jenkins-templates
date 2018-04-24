@@ -1,9 +1,9 @@
 piVersion: devops.alauda.io/v1alpha1
 kind: PipelineTemplate
 metadata:
-  name: wyzDeployService
+  name: wyz2DeployService
   annotations:
-    alauda.io/displayName.zh-CN: wyz更新服务
+    alauda.io/displayName.zh-CN: wyz2更新服务
     alauda.io/displayName.en: Update service
     alauda.io/description.zh-CN: 更新服务
     alauda.io/description.en: Update a service
