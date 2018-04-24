@@ -1,15 +1,15 @@
 apiVersion: devops.alauda.io/v1alpha1
 kind: PipelineTaskTemplate
 metadata:
-  name: wyz23DeployService
+  name: wyz234DeployService
   annotations:
-    alauda.io/displayName.zh-CN: wyz23更新服务
+    alauda.io/displayName.zh-CN: wyz234更新服务
     alauda.io/displayName.en: DeployService
     alauda.io/description.zh-CN: 更新服务
     alauda.io/description.en: DeployService
     alauda.io/readme.zh-CN: 更新服务
     alauda.io/readme.en: DeployService
-    alauda.io/version: v0.22
+    alauda.io/version: v0.3
     alauda.io/style.icon: 
   labels:
     catgory: CD
