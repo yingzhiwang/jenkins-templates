@@ -31,7 +31,7 @@ spec:
     - name: BuildImage
       tasks:
         - name: BuildImage
-          type: testorg001/alaudawithoutCI
+          type: alauda/alaudawithoutCI
           options:
             timeout: 3600
   arguments:
