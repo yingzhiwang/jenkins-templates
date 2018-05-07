@@ -22,7 +22,7 @@ spec:
         setContextPath("{{.contextDir}}").
         setUseImageCache({{.useImageCache}}).
         {{- if .CIEnbale}}
-        {{-if .useYaml}}
+        {{- if .useYaml}}
         withYaml("{{.ciYamlFile}}").
         {{- else}}
         withCIImage("{{.ciImage.registry}}/{{.ciImage.repository}}:{{.ciImageTag}}", "{{.ciImageRegistryCredentialsId}}"){
