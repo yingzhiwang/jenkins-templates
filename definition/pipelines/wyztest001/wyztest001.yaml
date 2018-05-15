@@ -9,14 +9,11 @@ metadata:
     alauda.io/description.en: Build NodeApp
     alauda.io/readme.zh-CN: Nodejs
     alauda.io/readme.en: Nodejs
-    alauda.io/version: v0.10
+    alauda.io/version: v0.01
   labels:
     catgory: CI
-    platform: Nodejssdasdasdadadadadadadasdasdadadjagjdajksdajd
-    user: lqasdasdajsdgajsdjadhjahdahdkjahdjahsdjahdjhadsasd
-    target: frontend
-    fix: fix v1
-    wide: china
+    platform: Nodejssdasdasdadadadadadadasdasdadadjagjdajksdajdadsasdasdasdasd
+    user: lqasdasdajsdgajsdjadhjahdahdkjahdjahsdjahdjhadsasdadasdadasdasdadasdasddasdasd
 spec:
     engine: graph
     withSCM: true
