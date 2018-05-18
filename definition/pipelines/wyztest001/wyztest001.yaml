@@ -1,7 +1,7 @@
 apiVersion: devops.alauda.io/v1alpha1
 kind: PipelineTemplate
 metadata:
-  name: buildNodeApp
+  name: buildNodeApp1
   annotations:
     alauda.io/displayName.zh-CN: 构建NodeAppasasasasdasfasdasfsadassfsafasdasfassfsa
     alauda.io/displayName.en: Build NodeAppasasasasdasfasdasfsadassfsafasdasfassfasd
