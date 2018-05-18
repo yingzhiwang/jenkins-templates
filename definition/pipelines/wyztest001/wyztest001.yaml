@@ -9,7 +9,7 @@ metadata:
     alauda.io/description.en: Build NodeApp
     alauda.io/readme.zh-CN: Nodejs
     alauda.io/readme.en: Nodejs
-    alauda.io/version: v0.01
+    alauda.io/version: v0.02
   labels:
     catgory: CI
     platform: Nodejssdasdasdadadadadadadasdasdadadjagjdajksdajdadsasdasdasdasd
@@ -18,23 +18,23 @@ spec:
     engine: graph
     withSCM: true
     stages:
-      - name: Clone
+      - name: Clonesfsfdsaasfasfasfsf
         tasks:
           - name: Clone0
             type: public/clone
       - name: BuildImage
         tasks:
-          - name: BuildImage
+          - name: BuildImagesadasfasfasf
             type: public/alaudaBuildImage
             options:
               timeout: 3600
       - name: PushImage
         tasks:
-          - name: firstPush
+          - name: firstPushasfsf
             type: public/push
             options:
               timeout: 3600
-          - name: secondPush
+          - name: secondPushssf
             type: public/push
             options:
               timeout: 3600
@@ -54,7 +54,7 @@ spec:
             type: public/push
             options:
               timeout: 3600
-          - name: seventhPush
+          - name: seventhPushsdsdfsfsf
             type: public/push
             options:
               timeout: 3600 
