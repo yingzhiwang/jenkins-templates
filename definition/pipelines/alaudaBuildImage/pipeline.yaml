@@ -17,6 +17,8 @@ metadata:
 spec:
   engine: graph
   withSCM: true
+  agent:                                     
+    label: java
   stages:
     - name: Clone
       tasks:
@@ -26,6 +28,8 @@ spec:
       tasks:
         - name: BuildImage
           type: public/alaudaBuildImage
+          agent:                                   
+            label: java
           options:
             timeout: 3600
   arguments:
