@@ -10,12 +10,14 @@ metadata:
     alauda.io/description.en: BuildImage
     alauda.io/readme.zh-CN: 构建镜像
     alauda.io/readme.en: BuildImage
-    alauda.io/version: v0.1
+    alauda.io/version: v0.2
     alauda.io/style.icon: 
   labels:
     catgory: CI
 spec:
   engine: gotpl
+  agent:                                     
+    label: java
   body: |+
     script{
       def image = alauda.build().
