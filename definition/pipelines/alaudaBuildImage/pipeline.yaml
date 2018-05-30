@@ -10,7 +10,7 @@ metadata:
     alauda.io/description.en: Clone code and builds a docker image
     alauda.io/readme.zh-CN: 克隆代码并构建镜像
     alauda.io/readme.en: Clone code and builds a docker image
-    alauda.io/version: v0.5
+    alauda.io/version: v0.6
     alauda.io/style.icon: build
   labels:
     catgory: CI
@@ -29,7 +29,7 @@ spec:
         - name: BuildImage
           type: public/alaudaBuildImage
           agent:                                   
-            label: java
+            label: python
           options:
             timeout: 3600
   arguments:
