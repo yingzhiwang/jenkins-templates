@@ -29,17 +29,6 @@ spec:
         zh-CN: "基本信息"
         en: "Basic Info"
       items:
-        - name: containerInfo
-          schema:
-            type: alauda.io/newk8scontainermix
-          binding:
-            - DeployService.args.containerInfo
-          display:
-            type: alauda.io/newk8scontainermix
-            name:
-              zh-CN: "容器"
-              en: "Container"
-          required: true
         - name: command
           schema:
             type: string
@@ -51,50 +40,6 @@ spec:
               zh-CN: "接入点"
               en: "Entrypoint"
           required: false
-        - name: args
-          schema:
-            type: string
-          binding:
-            - DeployService.args.args
-          display:
-            type: string
-            name:
-              zh-CN: "执行命令"
-              en: "Run Command"
-          required: false
-        - name: image
-          schema:
-            type: alauda.io/imagerepositorymix
-          binding:
-            - DeployService.args.image
-          display:
-            type: alauda.io/imagerepositorymix
-            name:
-              zh-CN: "更新使用的镜像仓库"
-              en: "Image repository to use"
-          required: false
-        - name: "imageTag"
-          schema:
-            type: string
-          binding:
-            - DeployService.args.imageTag
-          display:
-            type: alauda.io/imagetag
-            name:
-              zh-CN: "镜像版本"
-              en: "Image tag"
-          required: true
-          default: latest
-        - name: env
-          schema:
-            type: alauda.io/k8senv
-          binding:
-            - DeployService.args.env
-          display:
-            type: alauda.io/k8senv
-            name:
-              zh-CN: "环境变量"
-              en: "Environment variables"
         - name: timeout
           schema:
             type: int
